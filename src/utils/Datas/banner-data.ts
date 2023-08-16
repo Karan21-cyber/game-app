@@ -15,5 +15,5 @@ export default [
         image:"/products/godofwar.png",
         icon:"/icon_image/gift.png",
         discount:"%20"
-    }
+    },
 ]

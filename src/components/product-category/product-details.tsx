@@ -54,7 +54,7 @@ function ProductDetails({ pid }: { pid: string }) {
       const response = await axios.request(options);
       if (response) {
         const res = response.data.results as IMovieDetail;
-        setMovie({ movie: res });
+        setMovie({movie:res} );
         setLoading(false);
       }
     } catch (error) {
@@ -64,7 +64,7 @@ function ProductDetails({ pid }: { pid: string }) {
 
   useEffect(() => {
     fetchData();
-  }, []);
+  });
 
   return (
     <section className="product-details-container py-2 px-2 md:px-4 md:py-6 lg:px-[70px] flex flex-col gap-3 lg:gap-10  ">
