@@ -1,0 +1,19 @@
+export default [
+    {
+        id:1,
+        image:"/products/spaceassault.png",
+        icon:"/icon_image/chain.png",
+        discount:"%20",
+    },
+    {
+        id:2,
+        image:"/products/ridersRepublic.png",
+        icon:"/icon_image/chain.png",
+        discount:"%20"
+    },{
+        id:3,
+        image:"/products/godofwar.png",
+        icon:"/icon_image/gift.png",
+        discount:"%20"
+    }
+]
